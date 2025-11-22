@@ -13,13 +13,13 @@ data class QuestionsItemDto(
     @Json(name = "category")
     val category: String,
     @Json(name = "context")
-    val context: String,
+    val context: String?,
     @Json(name = "d")
     val d: String,
     @Json(name = "id")
     val id: String,
     @Json(name = "image")
-    val image: String,
+    val image: String?,
     @Json(name = "num")
     val num: String,
     @Json(name = "question")

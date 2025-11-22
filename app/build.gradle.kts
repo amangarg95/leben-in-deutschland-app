@@ -74,6 +74,7 @@ dependencies {
     implementation(libs.moshi.kotlin)
     ksp(libs.moshi.codegen)
     implementation(libs.okhttp)
+    implementation(libs.gson)
     implementation(libs.logging.interceptor)
 
     // Kotlin Coroutines/Flows
@@ -84,6 +85,9 @@ dependencies {
     implementation(libs.room.runtime)
     implementation(libs.room.ktx)
     ksp(libs.room.compiler)
+
+    // DataStore
+    implementation(libs.androidx.datastore.preferences)
 
     // Unit/UI Testing
     testImplementation(libs.junit)
