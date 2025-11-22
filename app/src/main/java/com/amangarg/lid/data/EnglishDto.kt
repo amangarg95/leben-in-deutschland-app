@@ -1,9 +1,8 @@
 package com.amangarg.lid.data
 
-
 import com.squareup.moshi.Json
 
-data class EnDto(
+data class EnglishDto(
     @Json(name = "a")
     val a: String,
     @Json(name = "b")

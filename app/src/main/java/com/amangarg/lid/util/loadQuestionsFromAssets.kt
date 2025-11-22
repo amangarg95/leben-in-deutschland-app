@@ -1,7 +1,6 @@
 package com.amangarg.lid.util
 
 import android.content.Context
-import com.amangarg.lid.data.Questions
 import com.amangarg.lid.data.QuestionsItemDto
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.Types
